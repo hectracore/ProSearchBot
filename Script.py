@@ -254,11 +254,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """{file_name}
-
-🎬 {quality} ⏳ {duration}
-🔊 {audio}
-💬 {subtitle}"""
+    CAPTION = """{file_name}\n\n🎬 {quality}\n⏳ {duration}\n🔊 {audio}\n💬 {subtitle}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>‣ ᴛɪᴛʟᴇ : <a href={url}>{title}</a>
