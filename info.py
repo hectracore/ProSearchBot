@@ -97,18 +97,18 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+DpKJW8fkcrBkNzQ1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Sujan_BotZ')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sujan_Chh')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+LaxmIG_lxAc2M2Vl')
-OWNERID = int(os.environ.get('OWNERID', '5123039648'))  # Replace with the actual admin ID
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CineZenHQ')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/trazinoxbots')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/trazinox')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/NovaArcStudios/7')
+OWNERID = int(os.environ.get('OWNERID', '6161553871'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
 # ============================
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6161553871').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6161553871').split()]
 
 # ============================
 # Miscellaneous Configuration
